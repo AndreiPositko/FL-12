@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 @media print {
-=======
-/*/*/*@media print {
->>>>>>> 03c7e4c354935aa693d272c78b9708328dc60f27
     .tm-main-nav {
         display: none;
     }
@@ -64,11 +60,7 @@
     }
 
     section.tm-content-box {
-<<<<<<< HEAD
         padding: 0 10px 0 10px;
-=======
-        padding-top: 0 10px 0 10px;
->>>>>>> 03c7e4c354935aa693d272c78b9708328dc60f27
     }
 
     li:nth-child(even) {
@@ -109,7 +101,6 @@ div.tm-banner {
 
 div.tm-banner-inner {
     background-color: #ffffff;
-<<<<<<< HEAD
 }
 
 p.tm-banner-text {
@@ -258,42 +249,5 @@ div.tm-main-content section:nth-child(n)::before {
     left: 0;
     top: 0;
     border-color: lightskyblue transparent transparent transparent;
-=======
 }
-
-p.tm-banner-text {
-    text-shadow: 6px 6px 3px #333;
-}
-
-@keyframes text {
-    from { left: 200px; }
-    to { left: 0px; }
-    }
-
-p.tm-banner-text {
-    position: relative;
-    animation-name: text;
-    animation-duration: 4s;
-    animation-timing-function: ease;
-}
-
-.flex-2-col {
-    display: flex;
-    justify-content: space-between;
->>>>>>> 03c7e4c354935aa693d272c78b9708328dc60f27
-}
-
-div.flex-item {
-    text-align: left;
-}
-
-/*section .tm-content-box:first-child {
-    display: flex;
-    align-items: center;
-}
-
-section .tm-content-box:first-child h2 {
-    text-align: center;
-}*/
-
 
